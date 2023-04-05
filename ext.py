@@ -2,6 +2,10 @@
 # print(w3.eth.get_transaction('0x7abada63af4f4c1a5297f25234aad90a0af2e518a3e48194d117715aef9b054f'))
 print("............")
 # print(w3.eth.get_transaction_receipt('0x7abada63af4f4c1a5297f25234aad90a0af2e518a3e48194d117715aef9b054f'))
+
+mbcash [detached from 293127.pts-0.server2]
+mbcashd [detached from 293281.pts-0.server2]
+
 """
 bb = w3.eth.get_block(78640, True)
 trxlist = []
