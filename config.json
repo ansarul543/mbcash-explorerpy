@@ -1,0 +1,28 @@
+{
+    "supply": 500000000,
+    "csupply": 100000000,
+    "reserve": 400000000,
+    "networt_name": "MBCash Coin",
+    "coinName": "MBCash",
+    "symbol": "MBCASH",
+    "decimal": 18,
+    "networkid": 153,
+    "baseBlockReward": 2,
+    "http_provider": "https://rpcm.coinbiten.com",
+    "ws_provider": "ws://155.133.23.127:9095",
+    "dbname": "mbcashpy",
+    "livecoinwatchapi": "https://api.livecoinwatch.com/coins/single",
+    "x_api_key": "394bac29-70e9-4034-967d-845c921f1f95",
+    "coinpaprika":"https://api.coinpaprika.com/v1/tickers/mbcash-mbcash",
+    "currency_code": "MBCASH",
+    "test_network": {
+        "networt_name": "MBCASH TEST",
+        "coinName": "Test MBCASH",
+        "symbol": "MBCASH",
+        "decimal": 18,
+        "networkid": 153,
+        "http_provider": "",
+        "ws_provider": ""
+    }
+}
+
