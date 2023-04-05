@@ -1,4 +1,4 @@
-from web3 import Web3, AsyncWeb3
+from web3 import Web3
 from hexbytes import HexBytes
 import pymongo
 from datetime import datetime, timedelta, date
