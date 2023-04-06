@@ -83,7 +83,7 @@ def backgroungdblock():
 
 def latest():
         try:
-                bb = w3.eth.get_block('latest')
+                bb = w3.eth.get_block('latest', True)
                 trxlist = []
                 block = {
                     "difficulty": bb["difficulty"], "extraData": bb["extraData"].hex(), "gasLimit": bb["gasLimit"],
