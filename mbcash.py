@@ -3,12 +3,14 @@ from hexbytes import HexBytes
 import pymongo
 from datetime import datetime, timedelta, date
 from flask import Flask, render_template, url_for, request, redirect, flash, current_app, session, jsonify
+from flask_cors import CORS
 #from flask_socketio import SocketIO
 import json
 import requests
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'fdddddddsdfdcvxawyyrsmdjyowqadetcsdddd'
+CORS(app)
 #socketio = SocketIO(app)
 
 with open('config.json', 'r', encoding='utf-8') as f:
