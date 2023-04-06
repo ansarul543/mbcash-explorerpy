@@ -3,8 +3,17 @@
 print("............")
 # print(w3.eth.get_transaction_receipt('0x7abada63af4f4c1a5297f25234aad90a0af2e518a3e48194d117715aef9b054f'))
 
+
+Then type screen Press enter
+Run your command
+Press ctrl + A and D
+It will run forever in background
+
+screen -ls
+screen -X -S 500938 quit
+
 mbcash [detached from 293127.pts-0.server2]
-mbcashd [detached from 293281.pts-0.server2]
+mbcashd [detached from 322231.pts-2.server2]
 
 """
 bb = w3.eth.get_block(78640, True)
