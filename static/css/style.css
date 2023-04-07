@@ -58,7 +58,7 @@ body {
 }
 
 .hometopbg{
-  background-image: url("/images/abstract-shapes-20.svg");
+  background-image: url("/static/images/abstract-shapes-20.svg");
   height: 300px;
   width: 100%;
   background-color: rgb(18, 22, 28);
@@ -415,7 +415,7 @@ tr:nth-child(odd) {
   color: rgb(87, 84, 84);
 }
 .footer{
-  background-image: url("/images/abstract-shapes-20.svg");
+  background-image: url("/static/images/abstract-shapes-20.svg");
   min-height: 300px;
   max-height: auto;
   width: 100%;
