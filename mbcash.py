@@ -285,7 +285,7 @@ def trxpending():
 def trxchart():
     data = []
     tDate = datetime.now()
-    fromdate1 = tDate - timedelta(days = 24)
+    fromdate1 = tDate - timedelta(days = 14)
     todate1 = tDate + timedelta(days = 1)
     fromdate = fromdate1.strftime("%Y-%m-%d")
     todate = todate1.strftime("%Y-%m-%d") 
