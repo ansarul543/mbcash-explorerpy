@@ -10,10 +10,10 @@ Press ctrl + A and D
 It will run forever in background
 
 screen -ls
-screen -X -S 500938 quit
+screen -X -S 59889 quit
 
-mbcash [detached from 59889.pts-2.server2]
-mbcashd [detached from 322231.pts-2.server2]
+mbcash [detached from 870436.pts-0.server2]
+mbcashd [detached from 870187.pts-0.server2]
 
 """
 bb = w3.eth.get_block(78640, True)
