@@ -10,9 +10,9 @@ Press ctrl + A and D
 It will run forever in background
 
 screen -ls
-screen -X -S 475251 quit
+screen -X -S 492933 quit
 
-mbcash [detached from 492933.pts-0.server2]
+mbcash [detached from 505123.pts-2.server2]
 mbcashd [detached from 870187.pts-0.server2]
 
 """
