@@ -176,13 +176,17 @@ def allblocks():
         if arg.get("sort")=="desc":
             sorts=-1
         else:
-            sorts=1            
-    val = blockcol.find().sort([('number', sorts)]).skip(page).limit(limits) 
-    for i in val:
-        #print(i["block"])
-        data.append(i["block"])  
-    print(data)      
-    return jsonify(data)
+            sorts=1      
+    try:       
+        val = blockcol.find().sort([('number', sorts)]).skip(page).limit(limits) 
+        for i in val:
+            data.append(i["block"])  
+        return jsonify(data)
+    except BaseException as e:
+        print("Connection Error") 
+        print(str(e))
+        return jsonify([])        
+        
 
 @app.route('/api/trxs', methods=["POST", "GET"])
 def alltrx():
@@ -201,11 +205,16 @@ def alltrx():
         if arg.get("sort")=="desc":
             sorts=-1
         else:
-            sorts=1            
-    val = transactioncol.find().sort([('number', sorts)]).skip(page).limit(limits) 
-    for i in val:
-        data.append(i["data"])    
-    return jsonify(data)
+            sorts=1    
+    try:        
+        val = transactioncol.find().sort([('number', sorts)]).skip(page).limit(limits) 
+        for i in val:
+            data.append(i["data"])    
+        return jsonify(data)
+    except BaseException as e:
+        print("Connection Error") 
+        print(str(e))
+        return jsonify([])
 
 @app.route('/api/latest-block', methods=["POST", "GET"])
 def blocklatest():
