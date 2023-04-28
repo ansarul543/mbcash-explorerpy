@@ -12,7 +12,7 @@ It will run forever in background
 screen -ls
 screen -X -S 59889 quit
 
-mbcash [detached from 870436.pts-0.server2]
+mbcash [detached from 475251.pts-2.server2]
 mbcashd [detached from 870187.pts-0.server2]
 
 """
