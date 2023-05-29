@@ -15,6 +15,11 @@ screen -X -S 492933 quit
 mbcash [detached from 505123.pts-2.server2]
 mbcashd [detached from 870187.pts-0.server2]
 
+//New Server
+mbcashd [detached from 9522.pts-1.server]
+mbcash [detached from 9639.pts-1.server]
+//End New Server
+
 """
 bb = w3.eth.get_block(78640, True)
 trxlist = []
