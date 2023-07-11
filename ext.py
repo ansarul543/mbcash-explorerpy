@@ -3,6 +3,12 @@
 print("............")
 # print(w3.eth.get_transaction_receipt('0x7abada63af4f4c1a5297f25234aad90a0af2e518a3e48194d117715aef9b054f'))
 
+IP : 144.91.71.239
+Password : ansarul018510198080*
+aaPanel Internet Address: https://144.91.71.239:7800/d85eac0f
+aaPanel Internal Address: https://144.91.71.239:7800/d85eac0f
+username: 3djl84f0
+password: c7ff0395
 
 Then type screen Press enter
 Run your command
@@ -10,14 +16,12 @@ Press ctrl + A and D
 It will run forever in background
 
 screen -ls
-screen -X -S 25526 quit
+screen -X -S 28431 quit
 
-mbcash [detached from 505123.pts-2.server2]
-mbcashd [detached from 870187.pts-0.server2]
 
 //New Server
 mbcashd [detached from 18395.pts-1.server]
-mbcash [detached from 28431.pts-1.server]
+mbcash [detached from 13675.pts-1.server]
 //End New Server
 
 """
