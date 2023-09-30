@@ -20,8 +20,9 @@ screen -X -S 28431 quit
 
 
 //New Server
-mbcashd [detached from 18395.pts-1.server]
-mbcash [detached from 13675.pts-1.server]
+
+Explorer : [detached from 3071.pts-0.server]
+
 //End New Server
 
 """
